@@ -17,7 +17,7 @@ Atliq's Data structure consists for four main tables as seen below: dim_customer
 - fact_pre_invoice_deductions: contains pre-invoice deductions information for each product
 - fact_sales_monthly: contains monthly sales data for each product.
 
-![Image](Images/Screenshot 2024-08-13 190821.png)
+![Image](Images/Screenshot%202024-08-13%20190821.png)
 
 Please find SQL Codes for the adhoc requests [here](Adhoc_SQL_Codes)
 
