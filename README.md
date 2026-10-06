@@ -23,47 +23,66 @@ Please find SQL Codes for the adhoc requests [here](Adhoc_SQL_Codes)
 
 # Insights based on 10 adhoc requests:
 
-1. Provide the list of markets in which customer "Atliq Exclusive" operates its business in the APAC region.
+1. **Provide the list of markets in which customer "Atliq Exclusive" operates its business in the APAC region.**
 
 ![Image](Images/Screenshot%202024-08-13%20192507.png)
 
-2. What is the percentage of unique product increase in 2021 vs. 2020? The final output contains these fields, unique_products_2020 unique_products_2021 percentage_chg.
+**Management wants to figure out** which **markets** have **performed better** in **APAC region**. 
+
+2. **What is the percentage of unique product increase in 2021 vs. 2020? The final output contains these fields, unique_products_2020 unique_products_2021 percentage_chg.**
 
 ![Image](Images/Screenshot%202024-08-13%20193309.png)
 
-3. Provide a report with all the unique product counts for each segment and sort them in descending order of product counts. The final output contains 2 fields, segment product_count.
+**89 new products** have been added in **2021** along with the existing products a **36.3% increase** in the number of **unique products.**
+
+3. **Provide a report with all the unique product counts for each segment and sort them in descending order of product counts. The final output contains 2 fields, segment product_count.**
 
 ![Image](Images/Screenshot%202024-08-13%20194255.png)
 
-4. Follow-up: Which segment had the most increase in unique products in 2021 vs 2020? The final output contains these fields, segment product_count_2020 product_count_2021 difference.
+**Notebook**, **Accessories** and **Peripherals** segments have significant **increase** in **unique products.**
+
+4. **Follow-up: Which segment had the most increase in unique products in 2021 vs 2020? The final output contains these fields, segment product_count_2020 product_count_2021 difference.**
 
 ![Image](Images/Screenshot%202024-08-13%20221959.png)
 
-5. Get the products that have the highest and lowest manufacturing costs. The final output should contain these fields, product_code product manufacturing_cost.
+**Accessories**, **Notebook** and **Peripherals** segments have significant **increase** in **unique products** compared to **Desktop, Storage and Networking.**
+
+5. **Get the products that have the highest and lowest manufacturing costs. The final output should contain these fields, product_code product manufacturing_cost.**
 
 ![Image](Images/Screenshot%202024-08-16%20184735.png)
 
-6. Generate a report which contains the top 5 customers who received an average high pre_invoice_discount_pct for the fiscal year 2021 and in the Indian market. The final output contains these fields, customer_code, customer and average_discount_percentage.
+**Highest** manufacturing cost is **240.5** and **lowest** is **0.89.**
+
+6. **Generate a report which contains the top 5 customers who received an average high pre_invoice_discount_pct for the fiscal year 2021 and in the Indian market. The final output contains these fields, customer_code, customer and average_discount_percentage.**
 
 ![Image](Images/Screenshot%202024-08-16%20191253.png)
 
-7. Get the complete report of the Gross sales amount for the customer “Atliq Exclusive” for each month . This analysis helps to get an idea of low and high-performing months and take strategic decisions. The final report contains these columns: Month, Year
-and Gross sales Amount.
+**Flipkart, Viveks, Ezone, Croma and Amazon** have the **highest pre-invoice discount percentage** in **India** for **FY 2021.**
+
+7. **Get the complete report of the Gross sales amount for the customer “Atliq Exclusive” for each month.The final report contains these columns: Month, Year and Gross sales Amount.**
 
 ![Image](Images/Screenshot%202024-08-16%20192320.png)
 ![Image](Images/Screenshot%202024-08-16%20192335.png)
 
-8. In which quarter of 2020, got the maximum total_sold_quantity? The final output contains these fields sorted by the total_sold_quantity, Quarter and total_sold_quantity.
+**Q1 sales** in **FY2020 was the highest** and **March 2020** was **lowest** due to **Covid**. **Q1 sales** in **FY2021** was again the **highest** and **significantlly more compared to FY2020.**
+
+8. **In which quarter of 2020, got the maximum total_sold_quantity? The final output contains these fields sorted by the total_sold_quantity, Quarter and total_sold_quantity.**
 
 ![Image](Images/Screenshot%202024-08-16%20202939.png)
 
-9. Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution? The final output contains these fields: channel, gross_sales_mln, percentage.
+**Q1** of FY2020 **sold the most** with a **quantity of 7.01.**
+
+9. **Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution? The final output contains these fields: channel, gross_sales_mln, percentage.**
 
 ![Image](Images/Screenshot%202024-08-16%20205433.png)
 
-10. Get the Top 3 products in each division that have a high
-total_sold_quantity in the fiscal_year 2021? The final output contains these fields: division, product_code, product, total_sold_quantity, rank_order
+**Retailer** performed the best with **1924.17 M** in **gross sales** and **contributed 73.22% of overall sales.**
+
+10. **Get the Top 3 products in each division that have a high**
+**total_sold_quantity** **in the** **fiscal_year** **2021.**
+**The final output contains these fields:** **division, product_code, product, total_sold_quantity, rank_order**
 
 ![Image](Images/Screenshot%202024-08-16%20211441.png)
 
+**Network & Storage(N & S)** have the **highest sold quantity** **products** were **pendrives.**
 
