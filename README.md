@@ -25,9 +25,7 @@ Please find SQL Codes for the adhoc requests [here](Adhoc_SQL_Codes)
 
 1. Provide the list of markets in which customer "Atliq Exclusive" operates its business in the APAC region.
 
-![Image](Images/Screenshot%202024-08-13%20192507.png)
-
-- **Management wants to figure out** which **markets** have **performed better** in **APAC region**. 
+![Image](Images/Screenshot%202024-08-13%20192507.png) **Management wants to figure out** which **markets** have **performed better** in **APAC region**. 
 
 2. What is the percentage of unique product increase in 2021 vs. 2020? The final output contains these fields, unique_products_2020 unique_products_2021 percentage_chg.
 
