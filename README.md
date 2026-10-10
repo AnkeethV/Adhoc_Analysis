@@ -19,15 +19,26 @@ Atliq's Data structure consists for four main tables as seen below: dim_customer
 
 ![Image](Images/Screenshot%202024-08-13%20190821.png)
 
-Please find SQL Codes for the adhoc requests [here](Adhoc_SQL_Codes)
+SQL Codes for the adhoc requests can be found [here](Adhoc_SQL_Codes)
 
-# Insights based on 10 adhoc requests:
+# Executive Summary
+
+#### Overview of Findings:
+
+Executive Management put out adhoc requests to the analyst team to uncover insights of Sales performance of **Atilq Exclusive**, **New Products** in **2021**, **discounts** offered to **customers**. 
+
+Identification of **Sales Channel Performance**, **Segment performance** and **Overall Sales Performance**.
+
+![Image](Images/Screenshot%202024-08-16%20192407.png)
+![Image](Images/Screenshot%202024-08-16%20205453.png)
+
+# Insights based on 10 adhoc requests
 
 1. Provide the list of markets in which customer "Atliq Exclusive" operates its business in the APAC region.
 
 ![Image](Images/Screenshot%202024-08-13%20192507.png) 
 
-- **Management wants to figure out** which **markets** have **performed better** in **APAC region**. 
+- **Management wants to figure out** which markets **Atliq Exclusive** stores are located in **APAC region**. 
 
 2. What is the percentage of unique product increase in 2021 vs. 2020? The final output contains these fields, unique_products_2020 unique_products_2021 percentage_chg.
 
