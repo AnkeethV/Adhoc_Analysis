@@ -1,13 +1,13 @@
 
 # Project Background
 
-Atliq Hardware is a FMCG company which sells computers, laptops and peripherals through e-commerece paltforms like Amazon, Flipkart and through stores like croma, best buy and also their own Atliq Exclusive stores. 
+**Atliq Hardware** is a **FMCG company** which sells **computers, laptops and peripherals** through **e-commerece paltforms** like **Amazon, Flipkart** and through stores like **croma, best buy** and also their own **Atliq Exclusive** stores. 
 
-However, the management noticed that they do not get enough insights to make quick and smart data-informed decisions. They want to expand their data analytics team by adding several junior data analysts. Tony Sharma, their data analytics director, wanted to hire someone good at both tech and soft skills. Hence, he decided to conduct a SQL challenge, which will help him understand both skills.
+However, the **management noticed that they do not get enough insights to make quick and smart data-informed decisions.** They want to **expand** their **data analytics team** by adding several junior data analysts. **Tony Sharma, their data analytics director,** wanted to hire someone good at both **tech and soft skills.** Hence, he decided to conduct a **SQL challenge**, which will help him understand both skills.
 
 # Data Structure and Initial checks
 
-Atliq's Data structure consists for four main tables as seen below: dim_customer, dim_product, dim_market, fact_sales_monthly with a total row count of 9,71,631 rows.
+**Atliq's Data structure** consists for four main tables as seen below: dim_customer, dim_product, fact_gross_price, fact_manufacturing_cost, fact_pre_invoice_deductions, fact_sales_monthly with a **total row count of 9,71,631 rows.**
 
 #### Description of each table is as follows:
 - dim_customer: contains customer-related data
@@ -30,7 +30,7 @@ Executive Management put out adhoc requests to the analyst team to uncover insig
 Identification of **Sales Channel Performance**, **Segment performance** and **Overall Sales Performance**.
 
 ![Image](Images/Screenshot%202024-08-16%20192407.png)
-![Image](Images/Screenshot%202024-08-16%20205453.png)
+![Image](Images/Screenshot%202026-10-11%20184618.png)
 
 # Insights based on 10 adhoc requests
 
@@ -97,3 +97,30 @@ total_sold_quantity in the fiscal_year 2021.The final output contains these fiel
 
 - **Network & Storage(N & S)** have the **highest sold quantity** **products** were **pendrives.**
 
+# Recommendations:
+
+**Based on the insights and findings above, we would recommend the Executive Management to consider the following:**
+
+- **Atliq Exclusive stores** are located at **8** countries in **APAC region**, the **highest Gross Sales** was contributed by **India of 49.6% of total sales**, followed by **South Korea, Indonesia, Australia and Philiphines with combined contribution of 41.5%.**. Need to check with the **Sales heads** of  **Bangladesh, Newzealand and Japan** for the **low performance in Gross Sales.**    
+
+![Image](Images/Screenshot%202026-10-10%20170538.png)
+
+- **New products** increased to **36.3% in 2021** compared to **2020**, Out of these segments like **Notebook, Accessories and Peripherals have 82.87%** concentration with **Desktop, Storage and Networking** have the least of **17.13%**. 
+
+  The **total sold quantity** is contributed by **Accessories, storage and peripherals** segment with **91.23%.** We see that there is **significant increase** in unique product for **Notebook segment** although it has least sold segment. Segments like **Notebook, Dekstop and Networking** have to be optimized.
+
+![Image](Images/Screenshot%202026-10-10%20184513.png)
+
+- **Flipkart, Viveks, Ezone, Croma and Amazon** were given an **highest average pre-invoice discount of 31.84%** in **India** market for the year **2021.** **Ezone, Viveks and Croma** **discounts** should be **verified** as their **contribution** towards **overall gross sales** in 2021 for India is about **5.23%.**
+
+![Image](Images/Screenshot%202026-10-10%20231220.png)
+
+- **Q1** is the **highest sales quarter** with **34.7 Million** in **2020** and **62.8 Million** in **2021** being the **festive season** of the year. **March 2020** was **lowest sales** accounted for **due to Covid.** **Alternate months** have **dip in sales** which requires attention.
+
+![Image](Images/Screenshot%202024-08-16%20192407.png)
+
+- **Direct** and **Distributor** channel have **contributed** about **15.47%** and **11.31%** have to be given **attention** and **improve** their **sales contribution.**
+
+![Image](Images/Screenshot%202024-08-16%20205453.png)
+
+- 
