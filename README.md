@@ -123,4 +123,3 @@ total_sold_quantity in the fiscal_year 2021.The final output contains these fiel
 
 ![Image](Images/Screenshot%202024-08-16%20205453.png)
 
-- 
